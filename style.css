@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 800px) and (max-width: 1600px) {
+      .media{
+            margin-left: 10vw;
+            margin-right: 10vw;
+      }
+}
+
+
+
+.heroImage{
+      height: 800px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+}
